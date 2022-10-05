@@ -1,0 +1,196 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F2F2F2;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Navbar component style */
+.navbar {
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: #e7dcdc;
+}
+
+.navbar h2 {
+    background-color: #FD0102;
+    width: fit-content;
+    padding: 2px;
+}
+
+.brand-first-half {
+    margin-right: 2px;
+}
+
+.brand-last-half {
+    background-color: #000000;
+    color: #FD0102;
+
+}
+
+.navbar button {
+    font-size: larger;
+    background-color: transparent;
+    color: #081f2b;
+    border: 2px solid #3f3c3c;
+    padding: 5px 10px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: #114650;
+    color: white;
+}
+
+/* AlbumsList component style */
+.albums-list {
+    width: 80%;
+    margin: auto;
+    padding-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* List component style */
+.list {
+    width: 230px;
+    height: 200px;
+    border: 1px solid rgb(31, 27, 27);
+    border-radius: 10%;
+    margin: 10px 0px 10px 0px;
+    color: rgb(29, 25, 25);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list h3 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.button-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.update-btn {
+    border: 1px solid black;
+    border-radius: 10%;
+    color: #081f2b;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.update-btn:hover {
+    background-color: #114650;
+    color: white;
+}
+
+.delete-btn {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 10px 20px;
+    color: #081f2b;
+}
+
+.delete-btn:hover {
+    background-color: #114650;
+    color: white;
+}
+
+/* UpdateAlbum component style */
+.update-album {
+    width: 350px;
+    margin: auto;
+    padding-top: 73px;
+    color: black;
+}
+
+.form-container {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 40px auto;
+    border-radius: 5%;
+}
+
+.inp-container {
+    margin: 10px;
+}
+
+.form-container button {
+    border: 1px solid black;
+    padding: 10px 20px;
+    color: #081f2b;
+    border-radius: 10%;
+}
+
+.form-container button:hover {
+    background-color: #114650;
+    color: white;
+}
+
+/* addAlbum container style */
+.addalbum-container {
+    color: white;
+    padding-top: 73px;
+    width: 350px;
+    margin: auto;
+}
+
+.addalbum-form {
+    padding: 10px;
+    margin: 40px auto;
+    color: black;
+    border-radius: 5%;
+    border: 1px solid black;
+}
+
+.addalbum-form button {
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 10px 20px;
+    color: #081f2b;
+}
+
+.addalbum-form button:hover {
+    background-color: #114650;
+    color: white;
+}
+
+.align-text {
+    text-align: center;
+    padding-bottom: 5px;
+}
