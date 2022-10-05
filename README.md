@@ -1,3 +1,7 @@
+![Project_Picture](https://github.com/souvik97381/React-Album-List/blob/master/album-list-pic.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
